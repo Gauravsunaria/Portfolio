@@ -1,0 +1,17 @@
+.remove-padding{
+    padding:0
+}
+
+.dropdown-toggle-1::after {
+    display: none; /* Default */
+    width: 0; /* Default */
+    height: 0; /* Default */
+    margin-left: .3em; /* Default */
+    vertical-align: middle; /* Default */
+    content: ""; /* Default */
+    border-top: .3em solid; /* caret size */
+    border-right: .3em solid transparent; /* caret size */
+    border-left: .3em solid transparent; /* caret size */
+}
+
+.float{ float: right;}
